@@ -40,6 +40,11 @@ public class CacheConfiguration {
             cm.createCache(com.stucom.angularcamp.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.stucom.angularcamp.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.stucom.angularcamp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.stucom.angularcamp.domain.Blog.class.getName(), jcacheConfiguration);
+            cm.createCache(com.stucom.angularcamp.domain.Entry.class.getName(), jcacheConfiguration);
+            cm.createCache(com.stucom.angularcamp.domain.Entry.class.getName() + ".tags", jcacheConfiguration);
+            cm.createCache(com.stucom.angularcamp.domain.Tag.class.getName(), jcacheConfiguration);
+            cm.createCache(com.stucom.angularcamp.domain.Tag.class.getName() + ".entries", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
