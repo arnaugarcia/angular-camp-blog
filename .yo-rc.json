@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.stucom.angularcamp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.5.5",
+    "baseName": "angularCampBlog",
+    "packageName": "com.stucom.angularcamp",
+    "packageFolder": "com/stucom/angularcamp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "e0ccbe32d6794ebad4c91047a6201fcdd6301e34",
+    "clientFramework": "angular2",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "ca",
+      "es"
+    ]
+  }
+}
